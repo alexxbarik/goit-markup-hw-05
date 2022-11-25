@@ -42,7 +42,7 @@
      <div class="overlay">
         <section class="hero">  
             <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button type="button" class="button">Замовити послугу</button>
+            <button data-modal-open type="button" class="button">Замовити послугу</button>
         </section>
     </div>
     
@@ -93,12 +93,15 @@
         <ul class="work-list">
             <li class="item">
                 <img src="./images/img-section-our-work-work-desc.jpg" alt="робочий стіл з комп'ютером">
+                <p class="item-label">Десктопні додатки</p>
             </li>
             <li class="item">
                 <img src="./images/img-section-our-work-mobile.jpg" alt="мобільний телефон">
+                <p class="item-label">Мобільні додатки</p>
             </li>
             <li class="item">
                 <img src="./images/img-section-our-work-tablet.jpg" alt="планшет">
+                <p class="item-label">Дизайнерські рішення</p>
             </li>
         </ul>
     </div>
@@ -310,5 +313,15 @@
         </div>
     </div>
     </footer>
+    <div class="backdrop " data-modal>
+        <div class="modal">
+            <button data-modal-close class="modal-btn">
+                <svg class="icon-close" width="18px" height="18px">
+                <use href="../goit-markup-hw-05/images/symbol-defs.svg#icon-close-black-18dp">
+                </use>
+                </svg></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
